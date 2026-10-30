@@ -6,6 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from shared import create_model
 
 
+
 def main():
     prompt = ChatPromptTemplate.from_messages([
         ("system", "한국어로 짧게 답한다."),
